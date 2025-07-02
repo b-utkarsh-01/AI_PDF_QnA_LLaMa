@@ -8,7 +8,7 @@ AI-powered web app to upload PDFs and ask questions based on their content using
 
 ## 🎬 Demo
 
-📽️ [Watch the demo video](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/c27767110233b6b372f1924fb8b0e1b08557ebc8/frontend/assests/PDF_QnA_chatBot_LLaMa.gif)
+![4p9p4o](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/66377d164c10345671f3820bfb08fb7b01897199/frontend/assests/PDF_QnA_chatBot_LLaMa.gif)
 
 Below is a quick preview:
 
