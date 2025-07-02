@@ -8,11 +8,15 @@ AI-powered web app to upload PDFs and ask questions based on their content using
 
 ## 🎬 Demo
 
-![4p9p4o](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/66377d164c10345671f3820bfb08fb7b01897199/frontend/assests/PDF_QnA_chatBot_LLaMa.gif)
+![Demo Preview](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/66377d164c10345671f3820bfb08fb7b01897199/frontend/assests/PDF_QnA_chatBot_LLaMa.gif)
 
 Below is a quick preview:
 
-![Demo Preview](assets/demo-screenshot.gif)
+![image alt](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/07056b0aa46d013a8e9f72f03c8655b67624830c/frontend/assests/1.png)
+![image alt](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/07056b0aa46d013a8e9f72f03c8655b67624830c/frontend/assests/2.png)
+![image alt](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/07056b0aa46d013a8e9f72f03c8655b67624830c/frontend/assests/3.png)
+![image alt](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/07056b0aa46d013a8e9f72f03c8655b67624830c/frontend/assests/4.png)
+![image alt](https://github.com/b-utkarsh-01/AI_PDF_QnA_LLaMa/blob/07056b0aa46d013a8e9f72f03c8655b67624830c/frontend/assests/5.png)
 
 ---
 
