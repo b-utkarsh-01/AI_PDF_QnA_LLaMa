@@ -16,6 +16,24 @@ Below is a quick preview:
 
 ---
 
+## 🧠 Model Download
+
+This app requires a local copy of the Mistral model in `.gguf` format.
+
+📥 [Download `mistral-7b-instruct-v0.1.Q3_K_M.gguf`]([https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q3_K_M.gguf))
+
+🗂️ After downloading, place the model file here:
+
+🧠 Make sure `main.py` has the correct path:
+
+```python
+model = Llama(
+    model_path="backend/models/mistral-7b-instruct-v0.1.Q3_K_M.gguf",
+    ...
+)
+
+---
+
 ## 📦 Project Structure
 📁 AI_pdf_QnA_WebApp/ <br>
 ├── main.py # FastAPI backend logic<br>
