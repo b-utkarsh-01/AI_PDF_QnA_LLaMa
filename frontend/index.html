@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI PDF Q&A</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="relative h-screen bg-gray-50">
+
+  <!-- Header (absolute top) -->
+  <header class="absolute top-0 left-0 w-full bg-gray-50 px-6 py-4 flex justify-between items-center shadow z-10">
+    <div class="flex items-center gap-3">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+        <circle cx="100" cy="100" r="95" fill="none" stroke="#28A745" stroke-width="10" />
+        <circle cx="100" cy="100" r="80" fill="#28A745" />
+        <text x="50%" y="54%" font-family="Arial, sans-serif" font-size="100" fill="#FFFFFF" text-anchor="middle"
+          dominant-baseline="middle">ai</text>
+      </svg>
+      <div>
+        <h1 class="text-2xl font-black">plant</h1>
+        <p class="text-sm">formerly <span class="text-[#28A745] font-bold">DPhi</span></p>
+      </div>
+    </div>
+
+    <div class="text-[#28A745] flex gap-5 items-center">
+      <div class="flex items-center gap-3">
+        <svg class="w-4 h-6" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 10 H 65 V 30 L 90 30 V 110 H 10 V 10 Z" fill="none" stroke="#28a745" stroke-width="8" />
+          <path d="M65 10 V 30 H 90" fill="none" stroke="#28a745" stroke-width="8" />
+        </svg>
+        <span id="file-name" class="text-sm">No file chosen</span>
+      </div>
+
+      <div class="relative cursor-pointer group">
+        <svg class="w-10 h-10 group-hover:scale-105 transition" viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="20" width="160" height="160" rx="30" ry="30" fill="none" stroke="#000000" stroke-width="8" />
+          <circle cx="100" cy="100" r="40" fill="none" stroke="#000000" stroke-width="8" />
+          <line x1="100" y1="70" x2="100" y2="130" stroke="#000000" stroke-width="8" stroke-linecap="round" />
+          <line x1="70" y1="100" x2="130" y2="100" stroke="#000000" stroke-width="8" stroke-linecap="round" />
+        </svg>
+        <input id="pdf-upload" type="file" accept="application/pdf" class="absolute inset-0 opacity-0 cursor-pointer" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-28 pb-24 px-6 h-full overflow-auto">
+    <!-- Place these two lines just below <main> -->
+    <div id="chat-history" class="mt-8 space-y-4"></div>
+    <p id="error-box" class="text-red-600 text-sm mb-2"></p>
+  </main>
+
+  <!-- Footer (absolute bottom) -->
+  <footer class="absolute bottom-0 left-0 w-full bg-white px-6 py-4 shadow z-10">
+    <form id="ask-form" class="flex gap-4 w-full">
+      <input type="text" id="question" placeholder="Type your question..."
+        class="flex-1 border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#28A745]" />
+      <button type="submit" class="bg-[#28A745] text-white px-6 py-2 rounded hover:bg-green-600 transition-all">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor" />
+        </svg>
+
+      </button>
+    </form>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
