@@ -28,7 +28,7 @@ def on_startup():
 
 # Load LLaMA model once
 model = Llama(
-    model_path="models/mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+    model_path="models/mistral-7b-instruct-v0.1.Q3_K_M.gguf",
     n_ctx=3900,
     n_threads=8
 )
