@@ -35,11 +35,12 @@ model = Llama(
     model_path="backend/models/mistral-7b-instruct-v0.1.Q3_K_M.gguf",
     ...
 )
+```
 
 ---
 
 ## 📦 Project Structure
-📁 AI_pdf_QnA_WebApp/ <br>
+📁 AI_pdf_QnA_WebApp/<br>
 ├── main.py # FastAPI backend logic<br>
 ├── models.py # SQLAlchemy document model<br>
 ├── database.py # DB setup and session<br>
@@ -69,7 +70,7 @@ model = Llama(
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
+```
 ---
 
 ## ✅ Assignment Criteria Checklist
